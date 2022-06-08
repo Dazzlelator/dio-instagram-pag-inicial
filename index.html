@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
     <div class="flex-conteiner">
@@ -14,27 +16,28 @@
         </div>
         <div class="main-area">
             <div class="main">
-                <img src="./imagens/instagram-logo.png" alt="instagram-logo">
+                <img class="logo" src="./imagens/instagram-logo.png" alt="instagram-logo">
                 <div class="perfil">
                     <img src="./imagens/perfil-instagram.png" alt="foto perfil">
                 </div>                
-                <a>Continue como Raphael</a>
-                <a>Remover conta</a>
+                <a href="#" class="login">Continue como Raphael</a>
+                <a href="#" class="logout">Remover conta</a>
+            </div>
+            <div class="main">
+                <p>Não é Raphael?</p>
+                <p> <a href="#">Alterar contas</a> ou <a href="#">Inscrever-se</a></p>
+               
             </div>
             <div>
-                Não é Raphael?
-                <span>Alterar contas</span> ou <span>Inscrever-se</span>
+                <p style="margin-top: 25px; color: white;">Baixe o aplicativo</p>
             </div>
-            <div>
-                <a href="#">Baixe o aplicativo</a>
+            <div class="baixar">
+                <a class="botao" href="#"></a>
+                <a class="botao" href="#"></a>
             </div>
-            <div>
-                <img class="botao" src="./imagens/googleplay-button.png" alt="googleplay" onclick="">
-                <img class="botao" src="./imagens/apple-button.png" alt="apple-button" onclick="">
-            </div>           
         </div>
     </div>
-    <footer class="flex-conteiner">
+    <footer>
         <ul class="lista-rodape">
             <li>About</li>
             <li>Job</li>
